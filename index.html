@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Rajesh Gupta
+
+    </title>
+</head>
+
+<body>
+    <h1>!!!Happy!!! <br> !!!Birthday!!! <br>!!!From!!!<br> !!!Amarkunj!!!
+        <br>!!!Family!!!<br></h1>
+    <br><br>
+    <section class="neon bd-container">
+        <div class="neon__container">
+            <div class="neon__card">
+                <svg class="neon__icon1" viewBox="0 0 48 48">
+                
+                    </svg>
+                <h1 class="neon__title">Cake</h1>
+
+                <p class="neon__description" style="text-align: center; "><br>A virtual cake for this virtual world <br><br></p>
+                <audio id="player" src="./Happy Birthday  to you.mp3" loop></audio>
+                <button onclick="document.getElementById('player').play()"> <a href="#" class="neon__button">Click Here 
+                        
+                    </a></button>
+            </div>
+
+            <div class="neon__card">
+                <svg class="neon__icon2" viewBox="0 0 48 48">
+
+                    </svg>
+                <h1 class="neon__title">Papu Uncle</h1>
+                <p class="neon__description" style="text-align: center; ">May your Birthday be packed with love and happiness. Wishing you a wonderfull Birthday.</p>
+                <a href="./uncle.jpeg" class="neon__button">Click Here
+                        
+                    </a>
+            </div>
+
+            <div class="neon__card">
+                <svg class="neon__icon3" viewBox="0 0 48 48">
+                        
+                    </svg>
+                <h1 class="neon__title">Gifts</h1>
+                <p class="neon__description" style="text-align: center; ">A virtual gift for a special person of our Family.</p>
+                <a href="./gift.gif" class="neon__button">Click here 
+                       
+                    </a>
+            </div>
+
+        </div>
+
+    </section>
+    <div class="footer"><small> Designed and Maintained <br>By 
+        <a target="_blank" href="https://github.com/ShouryaBrahmastra">  &copy;SHOURYA GUPTA</a></small></div>
+
+    <script src="./confetti.js"></script>
+    <script>
+        const start = () => {
+            setTimeout(function() {
+                confetti.start();
+            });
+        };
+        start();
+    </script>
+</body>
+
+</html>
